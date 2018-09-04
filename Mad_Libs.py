@@ -45,11 +45,16 @@ mad_list.append(what_type_of_music_you_listen_to)
 one_thing_you_want_to_learn = input("What's one thing you want to learn? (example: drawing) ")
 mad_list.append(one_thing_you_want_to_learn)
 
-fav_shoe_brand = input("What's your favorite shoe brand? (example: Adidas)")
-mad_list.append(fav_shoe_brand)
+shoes_info = ()
+fav_shoe_brand = str(input("What's your favorite shoe brand? (example: Adidas)"))
+# mad_list.append(fav_shoe_brand)
+she = shoes_info + fav_shoe_brand
 
 shoe_size = float(input("What's your shoe size?"))
-mad_list.append(shoe_size)
+# shoes_info.append(shoe_size)
+shes = shoes_info + shoe_size
+
+print(shoes_info)
 
 # print(mad_list)
 # myTup = {"erik" : 18}
