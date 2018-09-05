@@ -7,14 +7,10 @@ mad_list = []
 
 
 firstName = input("What is your first name? ")
-# mad_list.append(firstName)
-
 
 age = input("How old are you? ")
-# mad_list.append(age)
 
 personInfo = {"name" : firstName, "age" : age}
-print(personInfo)
 
 first_thing_you_do_for_fun = input("What do you do for fun? (say something like 'play video games'")
 mad_list.append(first_thing_you_do_for_fun)
@@ -51,17 +47,14 @@ mad_list.append(one_thing_you_want_to_learn)
 
 
 fav_shoe_brand = str(input("What's your favorite shoe brand? (example: Adidas)"))
-# mad_list.append(fav_shoe_brand)
 shoesBrandInfo = (fav_shoe_brand,)
 
 shoe_size = float(input("What's your shoe size?"))
-# shoes_info.append(shoe_size)
 shoeSizeInfo = (shoe_size,)
-
 
 def test():
     print("Hey, my name is " + personInfo["name"] + ". I am " + personInfo["age"] + " years old. For fun, I like to %s and %s. My favorite color is %s. I have %s siblings. For work, I %s. My favorite place to be is %s. The closest person to me is %s. I'm from %s and I live in %s. I like to listen to %s. One thing I want to learn is %s. My favorite shoe brand is %s. My shoe size is %s." % (first_thing_you_do_for_fun, second_thing_you_do_for_fun, favColor, num_of_siblings, what_you_do_for_work, fav_place_to_be, name_of_closest_person, where_you_from, where_do_you_live, what_type_of_music_you_listen_to, one_thing_you_want_to_learn, fav_shoe_brand, shoe_size) )   
 
 test()
 
-print(shoesBrandInfo + shoeSizeInfo)
+
