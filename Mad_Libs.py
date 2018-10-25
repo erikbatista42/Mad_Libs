@@ -4,6 +4,7 @@ for dot in "." * 10:
     print(dot)
 
 print("Give me ...")
+
 firstNoun = input("a noun: ")
 secondNoun = input("another noun: ")
 thirdNoun = input("a plural noun:")
