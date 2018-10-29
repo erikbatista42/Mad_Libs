@@ -16,8 +16,8 @@ def play():
     firstPlace = input("A place: ")
     firstAdjective = input("An adjective: ")
 
-    # Injects English compounds values into the the template below
-    madlibsTemplate = "I went to my {} and got {}. Then, I got a {} and put it in my {}. I wish someody could take care of my {} stuff and sleep with it. It will be really {} am I right?".format(firstNoun,thirdNoun,secondNoun,firstNoun,secondNoun,firstAdjective)
+    # Injects English compounds values into the template below
+    madlibsTemplate = "I went to my {} and got {}. Then, I got a {} and put it in my {}. I wish someody could take care of my {} stuff and sleep with it. It will be really {} am I right?".format(firstNoun, thirdNoun, secondNoun, firstNoun, secondNoun, firstAdjective)
     print(madlibsTemplate)
 
 loadGame()
