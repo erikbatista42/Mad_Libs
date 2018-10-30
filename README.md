@@ -1,3 +1,3 @@
-# Mad Libs about a person. This program's goal is to get the computer to know who you are.
+# Goofy Mad Libs Project
 
-Hey, my name is ___. I am ___ years old. For fun, I like to ___ and ___. My favorite color is ___. I have ___ siblings. For work, I ___. My favorite place to be is ___. The closest person to me is ___. I'm from ___ and I live in ___. I like to listen to ___. One thing I want to learn is ___. My favorite shoe brand is ___. My shoe size is ___.
+I went to my ___ and got ___. Then, I got a ___ and put it in my ___. I wish someody could take care of my ___ stuff and sleep with it. It will be really ___ am I right?
